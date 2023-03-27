@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Helmet } from 'react-helmet-async';
 const HomePage = () => {
     return (
@@ -7,10 +7,10 @@ const HomePage = () => {
                 <title>My Page Title</title>
                 <meta name="description" content="My page description" />
             </Helmet>
-            <h1>Welcome to My Page!</h1>
+            <h1 className="font-black text-3xl underline">Hello world!</h1>
             <p>This is the content of my page.</p>
         </div>
-    )
-}
+    );
+};
 
-export default HomePage
+export default HomePage;
