@@ -10,3 +10,11 @@
 body {
     font-family: Gilroy;
 }
+
+button {
+    @apply bg-white px-8 md:px-20 text-slate-900 font-semibold md:font-bold py-4 rounded-full text-sm md:text-xl transition-all;
+}
+
+button:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 1);
+}
