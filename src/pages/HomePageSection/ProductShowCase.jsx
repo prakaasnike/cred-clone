@@ -43,7 +43,7 @@ const ProductShowCase = () => {
         <div
             ref={ref}
             className={clsx(
-                `product-showcase w-screen  md:h-[800px]  relative overflow-hidden bg-cover bg-right ${
+                `product-showcase w-screen  md:h-screen  relative overflow-hidden bg-cover bg-right ${
                     showAnimation ? 'scale-in-bottom' : ''
                 } `
             )}

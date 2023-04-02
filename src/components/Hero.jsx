@@ -4,7 +4,7 @@ import { ArrowDownLeftIcon } from '@heroicons/react/24/solid';
 const Hero = () => {
     return (
         <div className="">
-            <div className="flex-row justify-center flex gap-4 py-6 bg-gray-600 bg-opacity-30 items-center">
+            <div className="md:flex-row flex-col justify-center flex gap-4 py-6 bg-gray-600 bg-opacity-30 items-center">
                 <div>pay credit card bill.earn guranteed ₹200 back.</div>
                 <div className="gap-2 flex cursor-pointer text-blue-400">
                     <span>claim now</span>
@@ -13,7 +13,7 @@ const Hero = () => {
                     </span>
                 </div>
             </div>
-            <div className="max-w-7xl h-[70vh]  items-center mx-auto justify-center md:text-center flex flex-col px-10">
+            <div className="max-w-7xl py-8 h-full  items-center mx-auto justify-center md:text-center flex flex-col px-10">
                 <div className="space-y-9 md:pl-20 md:pr-20">
                     <div className="text-[55px] font-extrabold md:text-6xl lg:text-[106px] leading-[55px]  tracking-[-1.65px] md:tracking-[-3px] md:leading-[120px]">
                         rewards for paying credit card bills.

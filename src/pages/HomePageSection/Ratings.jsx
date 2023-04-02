@@ -10,8 +10,10 @@ const Ratings = () => {
                 <div className="grid md:grid-cols-2">
                     <div className="p-12 space-y-6 flex flex-col items-center justify-center h-full  rounded-md">
                         <div className="space-x-4 flex items-center justify-center h-full ">
-                            <span className="text-9xl font-black">4.8</span>
-                            <span className="text-6xl font-bold">
+                            <span className="md:text-9xl text-8xl font-black">
+                                4.8
+                            </span>
+                            <span className="md:text-6xl text-4xl font-bold">
                                 app
                                 <br />
                                 store
@@ -35,8 +37,10 @@ const Ratings = () => {
                     </div>
                     <div className="p-12 space-y-6 flex flex-col items-center justify-center h-full  rounded-md">
                         <div className="space-x-4 flex items-center justify-center h-full ">
-                            <span className="text-9xl font-black">4.7</span>
-                            <span className="text-6xl font-bold">
+                            <span className="md:text-9xl text-8xl font-black">
+                                4.7
+                            </span>
+                            <span className="md:text-6xl text-4xl font-bold">
                                 play
                                 <br />
                                 store
