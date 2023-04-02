@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './button'
+import Button from './Button'
 import { ArrowDownLeftIcon } from '@heroicons/react/24/solid'
 const Hero = () => {
 
