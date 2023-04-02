@@ -10,6 +10,7 @@ import Experience from './HomePageSection/Experience';
 import Security from './HomePageSection/Security';
 import Trust from './HomePageSection/Trust';
 import NeoPop from './HomePageSection/NeoPop';
+import MobileScroll from '../components/MobileScroll/MobileScroll';
 
 
 const HomePage = () => {
@@ -27,6 +28,7 @@ const HomePage = () => {
             {/* Experience Upgrade */}
             <Experience />
             {/* Mobile Intersection tab */}
+            <MobileScroll />
             {/* parallelx bg */}
             <NeoPop />
             {/* Become a member */}
