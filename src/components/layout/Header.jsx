@@ -7,7 +7,7 @@ const Header = () => {
     const [opened, setOpened] = useState(false);
 
     return (
-        <nav className="text-white pt-12">
+        <nav className="text-white pt-12 py-4">
             <div className="max-w-6xl px-6 md:px-6 md:p-2 mx-auto flex justify-between items-center">
                 {/* brand icon */}
                 <div>

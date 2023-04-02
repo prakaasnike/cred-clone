@@ -31,4 +31,5 @@ module.exports = {
     require('tailwind-scrollbar'),
     require('tailwind-hamburgers'),
   ],
+
 };

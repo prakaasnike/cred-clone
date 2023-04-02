@@ -17,3 +17,73 @@ button {
 showcase-ui {
     @apply absolute bottom-0;
 }
+
+@media (max-width: 640px) {
+    .product-showcase {
+        height: 350px;
+        overflow: hidden;
+    }
+
+    .showcase-ui {
+        position: absolute;
+        left: 50%;
+        max-height: 250px;
+        width: auto;
+        margin: 0 5%;
+    }
+    .showcase-mockup-1 {
+        transform: translate(-160%, 25%);
+    }
+    .showcase-mockup-2 {
+        transform: translate(-120%, 15%);
+    }
+    .showcase-mockup-3 {
+        transform: translate(-60%, 5%);
+    }
+
+    .showcase-mockup-4 {
+        transform: translate(5%, 15%);
+    }
+    .showcase-mockup-5 {
+        transform: translate(35%, 25%);
+    }
+}
+
+.scale-in-bottom {
+    -webkit-animation: scale-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+        both;
+    animation: scale-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes scale-in-bottom {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 1;
+    }
+}
+@keyframes scale-in-bottom {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 1;
+    }
+}
